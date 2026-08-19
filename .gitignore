@@ -1,0 +1,25 @@
+# Generated outputs — everything here is reproducible from data/ and the script
+results/
+
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Rproj.user/
+*.Rproj
+.Rprofile
+.Renviron
+
+# Excel / LibreOffice lock files
+~$*.xlsx
+.~lock.*#
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*~

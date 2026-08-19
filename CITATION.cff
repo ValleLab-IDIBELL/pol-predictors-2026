@@ -1,0 +1,71 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite both the software itself and the
+  associated paper (see `preferred-citation`).
+title: >-
+  pol-predictors-2026: benchmarking of in-silico pathogenicity predictors in the
+  POLE and POLD1 exonuclease domains
+abstract: >-
+  Analysis code reproducing every figure and table of the manuscript "AlphaMissense
+  shows improved performance for predicting the pathogenicity of POLE and POLD1
+  exonuclease domain variants". Evaluates six missense pathogenicity predictors
+  (REVEL, AlphaMissense, BayesDel, CADD, PrimateAI and PrimateAI-3D) on a
+  Pathogenic/Benign control set, on variants of uncertain significance and on gnomAD
+  variants of the POLE and POLD1 exonuclease domains, using the published
+  ClinGen-calibrated PP3/BP4 thresholds.
+type: software
+license: MIT
+repository-code: "https://github.com/ValleLab-IDIBELL/pol-predictors-2026"
+keywords:
+  - POLE
+  - POLD1
+  - exonuclease domain
+  - variant classification
+  - in-silico pathogenicity predictors
+  - AlphaMissense
+  - REVEL
+  - ACMG/AMP
+  - ClinGen
+  - PP3/BP4
+authors:
+  - family-names: Marín
+    given-names: Raúl
+  - family-names: Viana-Errasti
+    given-names: Julen
+  - family-names: Mur
+    given-names: Pilar
+  - family-names: Rivera
+    given-names: Hortensia
+  - family-names: Tavtigian
+    given-names: Sean V.
+  - family-names: Valle
+    given-names: Laura
+    email: lvalle@idibell.cat
+    affiliation: >-
+      Hereditary Cancer Program, Catalan Institute of Oncology (ICO); Hereditary
+      Cancer Group, Bellvitge Biomedical Research Institute (IDIBELL),
+      L'Hospitalet de Llobregat, Barcelona, Spain
+preferred-citation:
+  type: article
+  title: >-
+    AlphaMissense shows improved performance for predicting the pathogenicity of
+    POLE and POLD1 exonuclease domain variants: A preliminary benchmarking study
+    with implications for cancer variant classification
+  authors:
+    - family-names: Marín
+      given-names: Raúl
+    - family-names: Viana-Errasti
+      given-names: Julen
+    - family-names: Mur
+      given-names: Pilar
+    - family-names: Rivera
+      given-names: Hortensia
+    - family-names: Tavtigian
+      given-names: Sean V.
+    - family-names: Valle
+      given-names: Laura
+  journal: Genes & Diseases
+  year: 2026
+  notes: >-
+    In revision. The DOI, volume and page numbers will be added to this file once
+    the paper is published.
